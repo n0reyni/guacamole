@@ -1,0 +1,87 @@
+<user-mapping>
+    <authorize username="admin" password="700b823d391360c71362b3f2dfbcf200" encoding="md5">
+    
+   
+    <!-- SERVER2 - Private Network with Private Key -->
+    <connection name="SSH-LINUX">
+      <protocol>ssh</protocol>
+      <param name="hostname">10.0.1.136</param>
+      <param name="port">22</param>
+      <param name="username">ubuntu</param>
+      <param name="private-key">-----BEGIN OPENSSH PRIVATE KEY-----
+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
+tXbNjTCTVIf8DKZ4TV+DGm5tcY3lPCPWYnd+q4DWQNoo712lenT7HS10nkT6XbmVj/P+M2
+qOvTElmqrYJdLEpDtPPu774MAxvLE6Xg0GpErNpB3/1rlq+mczMNqCOiH1EqvmHrcybtRE
+Wx8JHxufPIDEjdGoAAABAQDkTzkKnrsmDYVXGuWEDVIrbJ8VkrT6N5K5UkItkEjCLQfAJY
+AE7Pyq32i+jgHa4HVt/r8jrPjyUI2hNP8l4hJBjEwLNwjxHfKDqCN8beR2gAhirARfXU1t
+/f5QnCmPz6jfPkwd1T2yVUayKeVJjchCCa79dfAKedHNKfG4AzYLLEL7lIdHNwChLM1PzO
+2q5AonLBVVi2U9gfrVzWwrhPGcle6G16sMPvovQL83UjTEO1WaVyz6RHIQeo7mUDrkvdpm
+pEj5zEk5e1c4FprKmKLlqTJnpUWm9X96aDoXHAcv1l6GyPV0iDVvPdxA1+6SW0qzfvimfz
+H/XkRNJ20vYyw5AAABAQDyOwiRVr3P/dIkx+DFnDbcxRnA+ogaC+OyUwEAbx1mNZSFZlgv
+y9VwJKI8IOXxl22RJRmRdfYiy1RkWLOaPyrhVclr+UK52K+ngrxKm5HNKbYRs+Ar7Vcl/g
+ZPynf/9zrcIyXH4N9AeJnzNqL+W3QaNqB/XGFegxcFy8KfkmX9uTPdOjEeggRRC8fKzByz
+2JDWca1zK0J7+Wa6RB4QNPpmyhb4d7c/D8s0Ay9iAkW1hasCKhKqEwNLrJ1o+caFV+rXqH
+jqZSX+MqYiYrS31lyOxobwEhYvUfoDboqHp4CUsAUOnOw2VN/z6Pyu+xabvX9WPcS5uvH/
+QQ0OO5K57pX9AAAAFXVidW50dUBteS1zZXJ2ZXItdm5pYwECAwQF
+-----END OPENSSH PRIVATE KEY-----
+ </param>
+    </connection>
+    
+    <!-- SERVER_WINDOWS - RDP -->
+    <connection name="WINDOWS-RDP">
+  <protocol>rdp</protocol>
+  <param name="hostname">10.0.1.78</param>
+  <param name="port">3389</param>
+  <param name="username">opc</param>
+  <param name="password">@WindowsPasser1</param>
+  <param name="security">any</param>
+  <param name="ignore-cert">true</param>
+  <param name="disable-auth">true</param>
+  <param name="enable-wallpaper">false</param>
+  <param name="enable-theming">false</param>
+</connection>    
+
+<connection name="VNC-LINUX">
+  <protocol>vnc</protocol>
+  <param name="hostname">10.0.1.28</param>
+  <param name="port">5901</param>
+  <param name="password">Passer123@</param>
+  <param name="color-depth">24</param>
+  <param name="cursor">remote</param>
+</connection>
+
+  </authorize>
+</user-mapping>
